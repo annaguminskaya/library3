@@ -2,8 +2,7 @@
 #ifndef _TEMPLATE_H_
 #define _TEMPLATE_H_
 using namespace std;
-
-// -------- template struct Pair ----------------
+/*!<Hello! I am testng the doxygen. You can see my lab for syllabus (u4ebniy plan po-ruuski)*/
 template <class IND, class INF>
 struct Pair{
 	IND first;
@@ -18,7 +17,6 @@ const Pair<IND, INF> make_pair(const IND& s, const INF &p)
 	return Pair<IND, INF>(s, p);
 }
 
-// -------- template class Mymap ----------------
 template <class IND, class INF>
 class MymapIt;
 
