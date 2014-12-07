@@ -96,6 +96,7 @@ public:
 	int setIndex (int, int);
 	int getIndex (int) const;
 	int setCapacity (int n, int cap);
+	int getCapacity(int) const;
 };
 
 class Subject

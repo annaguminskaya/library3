@@ -201,6 +201,11 @@ int Laboratory::setCapacity (int n, int cap)
 	return 1;
 }
 
+int Laboratory::getCapacity(int n) const
+{
+	return lab[n].capacity;
+
+}
 ostream& Laboratory::show(ostream& os)const
 {	
 	LessonType::show(os);

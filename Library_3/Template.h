@@ -10,7 +10,11 @@ struct Pair{
 	Pair():first(IND()),second(INF()){}
 };
 
-
+/*!< Making pair
+* \param [in] s - code
+* \param [in] p - subject 
+* \return created pair
+*/
 template <class IND, class INF>
 const Pair<IND, INF> make_pair(const IND& s, const INF &p)
 {

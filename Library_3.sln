@@ -1,9 +1,16 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library_3", "Library_3\Library_3.vcxproj", "{39130C7C-503F-4806-9C1F-EFF7A2649801}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application_3", "Application_3\Application_3.vcxproj", "{76855810-7DF7-4BDD-B884-13A4C20054CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39130C7C-503F-4806-9C1F-EFF7A2649801} = {39130C7C-503F-4806-9C1F-EFF7A2649801}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Testing", "Testing\Testing.vcxproj", "{3D61D4D5-9D15-4078-84F4-A794055A80B2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{39130C7C-503F-4806-9C1F-EFF7A2649801} = {39130C7C-503F-4806-9C1F-EFF7A2649801}
 	EndProjectSection
@@ -22,6 +29,10 @@ Global
 		{76855810-7DF7-4BDD-B884-13A4C20054CB}.Debug|Win32.Build.0 = Debug|Win32
 		{76855810-7DF7-4BDD-B884-13A4C20054CB}.Release|Win32.ActiveCfg = Release|Win32
 		{76855810-7DF7-4BDD-B884-13A4C20054CB}.Release|Win32.Build.0 = Release|Win32
+		{3D61D4D5-9D15-4078-84F4-A794055A80B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D61D4D5-9D15-4078-84F4-A794055A80B2}.Debug|Win32.Build.0 = Debug|Win32
+		{3D61D4D5-9D15-4078-84F4-A794055A80B2}.Release|Win32.ActiveCfg = Release|Win32
+		{3D61D4D5-9D15-4078-84F4-A794055A80B2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
