@@ -128,7 +128,7 @@ MymapIt<IND, INF> Mymap<IND, INF>::find(const IND &s)
 		return MymapIt<IND, INF>(*this, cnt);
 }
 
-// -------- template class MymapIt ----------------
+
 template <class IND, class INF>
 class MymapIt{
 private:
